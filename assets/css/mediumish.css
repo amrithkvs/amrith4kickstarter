@@ -199,7 +199,7 @@ span.post-name a,span.post-read-more a:hover {
 	margin-right:5px;
 }
 .mainheading h1.sitetitle {
-	font-family:Righteous;
+	font-family:poppins, sans-serif;
 }
 .mainheading h1.posttitle {
 	font-weight:700;
@@ -731,3 +731,53 @@ html.lb-disable-scrolling {
   opacity: 1;
 }
 
+.button--navigation {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    -webkit-box-shadow: 0 1px 2px rgba(234,253,240,.1) , 0 2px 4px rgba(234,253,240,.2);
+    box-shadow: 0 1px 2px rgba(234,253,240,.1) , 0 2px 4px rgba(234,253,240,.2)
+}
+
+.button {
+    font-family: "proxima-nova",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    background-color: #009E73;
+    padding: 6px 24px;
+    letter-spacing: 0;
+    -webkit-box-shadow: 0 1px 2px rgba(234,253,240,1) , 0 2px 5px rgba(234,253,240,2);
+    box-shadow: 0 1px 2px rgba(234,253,240,1) , 0 2px 5px rgba(234,253,240,2);
+    text-align: center;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 0;
+    border: none;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+@media screen and (min-width: 1000px) {
+    .button:hover {
+        -webkit-box-shadow:0 2px 6px rgba(0,0,0,.05) , 0 8px 15px rgba(234,253,240,1);
+        box-shadow: 0 2px 6px rgba(0,0,0,.05) , 0 8px 15px rgba(234,253,240,1);
+        -webkit-transform: translateY(-1px);
+        color:#fff;
+        transform: translateY(-1px);
+        background-color: #009E73
+    }
+}
+
+@import url(https://p.typekit.net/p.css?s=1&k=dsk5bnt&ht=tk&f=139.169.173.175&a=1433275&app=typekit&e=css);
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/l?primer=388f68b35a7cbf1ee3543172445c23e26935269fadd3b392a13ac7b2903677eb&fvd=n7&v=3) format("woff2") , url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/d?primer=388f68b35a7cbf1ee3543172445c23e26935269fadd3b392a13ac7b2903677eb&fvd=n7&v=3) format("woff") , url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/a?primer=388f68b35a7cbf1ee3543172445c23e26935269fadd3b392a13ac7b2903677eb&fvd=n7&v=3) format("opentype");
+    font-style: normal;
+    font-weight: 700
+}
